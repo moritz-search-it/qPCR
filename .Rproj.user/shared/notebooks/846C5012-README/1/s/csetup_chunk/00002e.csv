@@ -1,0 +1,6 @@
+"0","load(""Users/moritzherrmann/Bioinformatic_MA/Results/qPCR visualisation/rawdata_e.faecium.RData"")
+"
+"2","kann komprimierte Datei 'Users/moritzherrmann/Bioinformatic_MA/Results/qPCR visualisation/rawdata_e.faecium.RData' nicht öffnen. Grund evtl. 'No such file or directory'"
+"2","Fehler in readChar(con, 5L, useBytes = TRUE) : 
+  kann Verbindung nicht öffnen
+"
