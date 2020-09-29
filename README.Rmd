@@ -20,26 +20,26 @@ Technical replicates were pooled and sd was calculated (" in progress ") the bio
 
 ### E.faecium
 
-![](/Users/moritzherrmann/Bioinformatic_MA/Results/qPCR visualisation/E.faecium/++ _change.png)
+![](E.faecium/++ _change.png)
 
 > higher concentration for both genes in the condition with Antibiotic, seems that AB pressure has an positive impact on growth  
 
-![](/Users/moritzherrmann/Bioinformatic_MA/Results/qPCR visualisation/E.faecium/ST _change.png)
+![](E.faecium/ST _change.png)
 
 ### E.coli
 
 The same workflow was used to generate similar plot in the Batch fermentation 3, which the spiked strain was a *E.coli* strain, which is carrying the bla operon, encoding for multiple ab resistances, mostly against Glycopeptide. 
 
-![](/Users/moritzherrmann/Bioinformatic_MA/Results/qPCR visualisation/E.coli/++ _change.png)
-![](/Users/moritzherrmann/Bioinformatic_MA/Results/qPCR visualisation/E.coli/ST _change.png)
+![](E.coli/++ _change.png)
+![](E.coli/ST _change.png)
 
 ## Horizontal gene transfer (HGT)
 
 To see (HGT) directly, the ratio of antibiotic gene over the unique sequence should grow with time. 
 
-![](/Users/moritzherrmann/Bioinformatic_MA/Results/qPCR visualisation/E.faecium/ratio.png)
+![](E.faecium/ratio.png)
 
 > Big numbers but, theres no big change in ratio . Same pattern in both batch fermentaion, below theres the ratio for e.coli
 
 
-![](/Users/moritzherrmann/Bioinformatic_MA/Results/qPCR visualisation/E.coli/ratio.png)
+![](E.coli/ratio.png)
