@@ -1,0 +1,38 @@
+---
+title: "Untitled"
+author: "Moritz Herrmann"
+date: "9/23/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+## Rawdata Manipulation from Light Cycler 480
+
+
+
+```{r mean calculations}
+mean_data <- grouped_data %>% summarise(cp=mean(Cp),concentration=mean(Concentration))
+
+amplificated <- mean_data %>% filter(str_detect(Time,'7a|24a')) %>% group_by(Time)
+van_amplificated <- amplificated
+van_non_amplificated <- anti_join(mean_data,amplificated)
+ungroup(van_amplificated)
+ungroup(van_non_amplificated)
+
+
+```
+
+## rearrange time column 
+
+
+```{r pressure, echo=True}
+van_non_amplificated$Time <- van_non_amplificated$Time %>% as.integer()
+van_non_amplificated <- arrange(van_non_amplificated,-desc(Time))
+van_non_amplificated$Time <- van_non_amplificated$Time %>% as.character()
+
+```
+
